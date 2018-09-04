@@ -74,7 +74,7 @@ Sending metrics to Sumo Logic using `in_http`:
 
 <match test.carbon2>
 	@type sumologic
-	endpoint https://endpoint3.collection.us2.sumologic.com/receiver/v1/http/ZaVnC4dhaV1hYfCAiqSH-PDY6gUOIgZvO60U_-y8SPQfK0Ks-ht7owrbk1AkX_ACp0uUxuLZOCw5QjBg1ndVPZ5TOJCFgNGRtFDoTDuQ2hzs3sn6FlfBSw==
+	endpoint https://endpoint3.collection.us2.sumologic.com/receiver/v1/http/XXXXXXXXXX
 	data_type metrics
 	metric_data_format carbon2
 	flush_interval 1s
@@ -82,7 +82,7 @@ Sending metrics to Sumo Logic using `in_http`:
 
 <match test.graphite>
 	@type sumologic
-	endpoint https://endpoint3.collection.us2.sumologic.com/receiver/v1/http/ZaVnC4dhaV1hYfCAiqSH-PDY6gUOIgZvO60U_-y8SPQfK0Ks-ht7owrbk1AkX_ACp0uUxuLZOCw5QjBg1ndVPZ5TOJCFgNGRtFDoTDuQ2hzs3sn6FlfBSw==
+	endpoint https://endpoint3.collection.us2.sumologic.com/receiver/v1/http/XXXXXXXXXX
 	data_type metrics
 	metric_data_format graphite
 	flush_interval 1s
